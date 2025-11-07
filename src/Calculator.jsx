@@ -8,23 +8,23 @@ export default function Calculator() {
 
   function handle(e) {
     setNumber(number + e.target.value)
-  }
+  };
 
   function Del() {
     setNumber(number.slice(0, -1))
-  }
+  };
 
   function AC() {
     setNumber('')
-  }
+  };
 
   function equal() {
     setNumber(eval(number))
-  }
+  };
 
   function percetage(){
     setNumber(number/100)
-  }
+  };
 
   return (
     <div className='bg-cal'>
