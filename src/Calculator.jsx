@@ -7,7 +7,7 @@ export default function Calculator() {
   const [number, setNumber] = useState('');
 
   function handle(e) {
-    setNumber(number + e.target.value)
+    setNumber(number + e.target.value);
   };
 
   function Del() {
@@ -15,15 +15,15 @@ export default function Calculator() {
   };
 
   function AC() {
-    setNumber('')
+    setNumber('');
   };
 
   function equal() {
-    setNumber(eval(number))
+    setNumber(eval(number));
   };
 
   function percetage(){
-    setNumber(number/100)
+    setNumber(number/100);
   };
 
   return (
