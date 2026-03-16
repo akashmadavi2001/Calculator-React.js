@@ -6,7 +6,7 @@ export default function Calculator() {
 
   const [number, setNumber] = useState('');
 
-  function handle(e) {
+  const handle = (e) => {
     setNumber(number + e.target.value);
   };
 
