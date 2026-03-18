@@ -10,7 +10,7 @@ export default function Calculator() {
     setNumber(number + e.target.value);
   };
 
-  function Del() {
+  const Del = () => {
     setNumber(number.slice(0, -1))
   };
 
