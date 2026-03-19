@@ -14,7 +14,7 @@ export default function Calculator() {
     setNumber(number.slice(0, -1))
   };
 
-  function AC() {
+  const AC = () => {
     setNumber('');
   };
 
