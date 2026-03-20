@@ -18,7 +18,7 @@ export default function Calculator() {
     setNumber('');
   };
 
-  function equal() {
+  const equal = () => {
     setNumber(eval(number));
   };
 
