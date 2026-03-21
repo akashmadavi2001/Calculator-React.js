@@ -22,7 +22,7 @@ export default function Calculator() {
     setNumber(eval(number));
   };
 
-  function percetage(){
+  const percetage = () => {
     setNumber(number/100);
   };
 
