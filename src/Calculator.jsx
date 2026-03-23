@@ -28,7 +28,7 @@ export default function Calculator() {
 
   return (
     <div className='bg-cal'>
-      <form action="" key={number}>
+      <form key={number}>
         <div className='calculator' >
           <input className='display' id='display' defaultValue={number} placeholder='00' type='textbox' />
           <div>
